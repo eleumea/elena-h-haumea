@@ -1,5 +1,6 @@
 
 body {
+    
     background-color: rgb(252, 228, 119);
     color: saddlebrown;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -15,15 +16,43 @@ h2 {
 
 ul {
     list-style: none;
-  }
+}
 
 .span-name {
     color: saddlebrown;
     padding: 5px
 }
 
-
 .span-class {
     background-color: rgb(181, 220, 190);
+    padding: 5px;
+}
+
+.parent-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 75px;
+}
+
+.flex-container-title {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 600px;
+    border: black 1px solid;
+    padding: 10px;
+}
+
+.flex-container-child {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: normal;
+    justify-content: space-around;
+    width: 50%;
+    border: black 1px solid;
     padding: 5px;
 }
